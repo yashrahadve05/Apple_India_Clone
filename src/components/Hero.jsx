@@ -10,6 +10,9 @@ const Component = styled(Box)({
   justifyContent: 'start',
   alignItems: 'center',
   flexDirection: 'column',
+  '& > img': {
+    width: '33%'
+  },
   '& > h2': {
     color: '#f5f5f7',
     fontSize: '56px',
@@ -40,6 +43,7 @@ const Component = styled(Box)({
 function Hero() {
   return (
     <Component>
+        {/* https://www.apple.com/105/media/us/apple-events/2024/de49429c-da1f-446d-8280-ebc5c3830b40/anim/teaser/large.mp4 */}
         <img src="https://www.apple.com/v/apple-events/home/ag/images/overview/hero/hero__d6adldydsqye_large.png" alt="hero image" />
         <h2>Apple Event</h2>
         <p>Watch Online on 9 September at 10:30 PM IST</p>
