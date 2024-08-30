@@ -1,7 +1,7 @@
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
-import { appleLogo, logo, navData } from '../constants/constant';
+import { logo, navData } from '../constants/constant';
 import { Box, styled, Typography } from "@mui/material"
 
 
@@ -27,7 +27,7 @@ function Header() {
   return (
         <Component>
             <NavBar>
-                <img src={appleLogo} alt="logo" style={{ width: 17, color: 'white'}} />
+                <img src={logo} alt="logo" style={{ width: 17, color: 'white'}} />
                 {
                   navData.map(nav => (
                     <Typography key={nav} style={{ fontSize: 12, fontWeight: 500, color: "#d9d9d9" }}>
