@@ -1,6 +1,5 @@
 export const appleLogo = "https://cdn-icons-png.flaticon.com/512/0/747.png";
 export const logo = '../src/assets/asset 0 png.png';
-export const heroImg = '../src/assets/asset 2.jpeg';
 
 export const navData = [
     'Store',

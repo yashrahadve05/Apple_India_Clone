@@ -1,5 +1,4 @@
-import { styled, Box } from "@mui/material"
-import { heroImg } from "../constants/constant"
+import { styled, Box } from "@mui/material";
 
 
 const Component = styled(Box)({
@@ -41,7 +40,7 @@ const Component = styled(Box)({
 function Hero() {
   return (
     <Component>
-        <img src={heroImg} alt="hero image" />
+        <img src="https://www.apple.com/v/apple-events/home/ag/images/overview/hero/hero__d6adldydsqye_large.png" alt="hero image" />
         <h2>Apple Event</h2>
         <p>Watch Online on 9 September at 10:30 PM IST</p>
         <button>Learn more</button>
