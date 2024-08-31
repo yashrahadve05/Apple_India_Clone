@@ -5,6 +5,7 @@ import Product from '../components/Product'
 import Section from '../components/Section'
 import Hero from '../components/Hero'
 import { styled, Box } from "@mui/material"
+import { productsSection } from '../constants/constant'
 
 
 const Component = styled(Box)({
@@ -14,6 +15,10 @@ const Component = styled(Box)({
   alignContent: 'center'
 })
 
+// const Section = styled(Box)({
+//   backgroundColor: 'blue'
+// })
+
 function Home() {
   return (
     <div>
@@ -22,8 +27,10 @@ function Home() {
           <Info />
           <Hero />
         </Component>
+        <Section data={productsSection.iphone}/>
+        <Section data={productsSection.iphonePro}/>
+        <Section data={productsSection.macbookpro}/>
         <Product />
-        <Section />
     </div>
   )
 }
