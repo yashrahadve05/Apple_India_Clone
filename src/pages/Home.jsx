@@ -10,6 +10,7 @@ import { productsSection } from '../constants/constant'
 
 const Component = styled(Box)({
   height: '100vh',
+  maxHeight: '700px',
   width: '100%',
   background: 'green',
   alignContent: 'center'
